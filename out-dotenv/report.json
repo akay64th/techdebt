@@ -1,0 +1,1123 @@
+{
+  "project": "dotenv",
+  "summary": {
+    "total_files": 8,
+    "total_functions": 73,
+    "total_smells": 1,
+    "total_duplicate_patterns": 11,
+    "complexity_bands": {
+      "A": 63,
+      "B": 8,
+      "C": 2
+    }
+  },
+  "functions": [
+    {
+      "file": "cli.py",
+      "name": "enumerate_env",
+      "line": 25,
+      "end_line": 36,
+      "length": 12,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "cli.py",
+      "name": "cli",
+      "line": 63,
+      "end_line": 67,
+      "length": 5,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "cli.py",
+      "name": "stream_file",
+      "line": 71,
+      "end_line": 83,
+      "length": 13,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "cli.py",
+      "name": "list_values",
+      "line": 96,
+      "end_line": 112,
+      "length": 17,
+      "complexity": 6,
+      "rank": "B"
+    },
+    {
+      "file": "cli.py",
+      "name": "set_value",
+      "line": 119,
+      "end_line": 138,
+      "length": 20,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "cli.py",
+      "name": "get",
+      "line": 144,
+      "end_line": 154,
+      "length": 11,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "cli.py",
+      "name": "unset",
+      "line": 160,
+      "end_line": 177,
+      "length": 18,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "cli.py",
+      "name": "run",
+      "line": 194,
+      "end_line": 211,
+      "length": 18,
+      "complexity": 7,
+      "rank": "B"
+    },
+    {
+      "file": "cli.py",
+      "name": "run_command",
+      "line": 214,
+      "end_line": 264,
+      "length": 51,
+      "complexity": 4,
+      "rank": "A"
+    },
+    {
+      "file": "ipython.py",
+      "name": "load_ipython_extension",
+      "line": 48,
+      "end_line": 50,
+      "length": 3,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "ipython.py",
+      "name": "IPythonDotEnv",
+      "line": 12,
+      "end_line": 45,
+      "length": 34,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "ipython.py",
+      "name": "IPythonDotEnv.dotenv",
+      "line": 34,
+      "end_line": 45,
+      "length": 12,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "main.py",
+      "name": "_load_dotenv_disabled",
+      "line": 22,
+      "end_line": 29,
+      "length": 8,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "main.py",
+      "name": "with_warn_for_invalid_lines",
+      "line": 32,
+      "end_line": 39,
+      "length": 8,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "main.py",
+      "name": "get_key",
+      "line": 129,
+      "end_line": 139,
+      "length": 11,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "main.py",
+      "name": "_discard_temp_file",
+      "line": 142,
+      "end_line": 158,
+      "length": 17,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "main.py",
+      "name": "rewrite",
+      "line": 162,
+      "end_line": 221,
+      "length": 60,
+      "complexity": 10,
+      "rank": "B"
+    },
+    {
+      "file": "main.py",
+      "name": "set_key",
+      "line": 224,
+      "end_line": 285,
+      "length": 62,
+      "complexity": 11,
+      "rank": "C"
+    },
+    {
+      "file": "main.py",
+      "name": "unset_key",
+      "line": 288,
+      "end_line": 330,
+      "length": 43,
+      "complexity": 6,
+      "rank": "B"
+    },
+    {
+      "file": "main.py",
+      "name": "resolve_variables",
+      "line": 333,
+      "end_line": 355,
+      "length": 23,
+      "complexity": 5,
+      "rank": "A"
+    },
+    {
+      "file": "main.py",
+      "name": "_walk_to_root",
+      "line": 358,
+      "end_line": 373,
+      "length": 16,
+      "complexity": 4,
+      "rank": "A"
+    },
+    {
+      "file": "main.py",
+      "name": "find_dotenv",
+      "line": 376,
+      "end_line": 428,
+      "length": 53,
+      "complexity": 11,
+      "rank": "C"
+    },
+    {
+      "file": "main.py",
+      "name": "load_dotenv",
+      "line": 431,
+      "end_line": 479,
+      "length": 49,
+      "complexity": 4,
+      "rank": "A"
+    },
+    {
+      "file": "main.py",
+      "name": "dotenv_values",
+      "line": 482,
+      "end_line": 516,
+      "length": 35,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "main.py",
+      "name": "_is_file_or_fifo",
+      "line": 520,
+      "end_line": 532,
+      "length": 13,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "main.py",
+      "name": "DotEnv",
+      "line": 42,
+      "end_line": 126,
+      "length": 85,
+      "complexity": 5,
+      "rank": "A"
+    },
+    {
+      "file": "main.py",
+      "name": "DotEnv.__init__",
+      "line": 43,
+      "end_line": 62,
+      "length": 20,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "main.py",
+      "name": "DotEnv._get_stream",
+      "line": 65,
+      "end_line": 77,
+      "length": 13,
+      "complexity": 6,
+      "rank": "B"
+    },
+    {
+      "file": "main.py",
+      "name": "DotEnv.dict",
+      "line": 79,
+      "end_line": 93,
+      "length": 15,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "main.py",
+      "name": "DotEnv.parse",
+      "line": 95,
+      "end_line": 99,
+      "length": 5,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "main.py",
+      "name": "DotEnv.set_as_environment_variables",
+      "line": 101,
+      "end_line": 114,
+      "length": 14,
+      "complexity": 6,
+      "rank": "B"
+    },
+    {
+      "file": "main.py",
+      "name": "DotEnv.get",
+      "line": 116,
+      "end_line": 126,
+      "length": 11,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "parser.py",
+      "name": "make_regex",
+      "line": 14,
+      "end_line": 15,
+      "length": 2,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "parser.py",
+      "name": "decode_escapes",
+      "line": 107,
+      "end_line": 111,
+      "length": 5,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "parser.py",
+      "name": "parse_key",
+      "line": 114,
+      "end_line": 122,
+      "length": 9,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "parser.py",
+      "name": "parse_unquoted_value",
+      "line": 125,
+      "end_line": 127,
+      "length": 3,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "parser.py",
+      "name": "parse_value",
+      "line": 130,
+      "end_line": 141,
+      "length": 12,
+      "complexity": 4,
+      "rank": "A"
+    },
+    {
+      "file": "parser.py",
+      "name": "parse_binding",
+      "line": 144,
+      "end_line": 184,
+      "length": 41,
+      "complexity": 6,
+      "rank": "B"
+    },
+    {
+      "file": "parser.py",
+      "name": "parse_stream",
+      "line": 188,
+      "end_line": 191,
+      "length": 4,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "parser.py",
+      "name": "Original",
+      "line": 37,
+      "end_line": 39,
+      "length": 3,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "parser.py",
+      "name": "Binding",
+      "line": 42,
+      "end_line": 46,
+      "length": 5,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "parser.py",
+      "name": "Position",
+      "line": 49,
+      "end_line": 64,
+      "length": 16,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "parser.py",
+      "name": "Position.__init__",
+      "line": 50,
+      "end_line": 52,
+      "length": 3,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "parser.py",
+      "name": "Position.start",
+      "line": 55,
+      "end_line": 56,
+      "length": 2,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "parser.py",
+      "name": "Position.set",
+      "line": 58,
+      "end_line": 60,
+      "length": 3,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "parser.py",
+      "name": "Position.advance",
+      "line": 62,
+      "end_line": 64,
+      "length": 3,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "parser.py",
+      "name": "Error",
+      "line": 67,
+      "end_line": 68,
+      "length": 2,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "parser.py",
+      "name": "Reader",
+      "line": 71,
+      "end_line": 104,
+      "length": 34,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "parser.py",
+      "name": "Reader.__init__",
+      "line": 72,
+      "end_line": 75,
+      "length": 4,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "parser.py",
+      "name": "Reader.has_next",
+      "line": 77,
+      "end_line": 78,
+      "length": 2,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "parser.py",
+      "name": "Reader.set_mark",
+      "line": 80,
+      "end_line": 81,
+      "length": 2,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "parser.py",
+      "name": "Reader.get_marked",
+      "line": 83,
+      "end_line": 86,
+      "length": 4,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "parser.py",
+      "name": "Reader.peek",
+      "line": 89,
+      "end_line": 90,
+      "length": 2,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "parser.py",
+      "name": "Reader.read",
+      "line": 92,
+      "end_line": 97,
+      "length": 6,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "parser.py",
+      "name": "Reader.read_regex",
+      "line": 99,
+      "end_line": 104,
+      "length": 6,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "variables.py",
+      "name": "parse_variables",
+      "line": 70,
+      "end_line": 86,
+      "length": 17,
+      "complexity": 4,
+      "rank": "A"
+    },
+    {
+      "file": "variables.py",
+      "name": "Atom",
+      "line": 18,
+      "end_line": 26,
+      "length": 9,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "variables.py",
+      "name": "Atom.__ne__",
+      "line": 19,
+      "end_line": 23,
+      "length": 5,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "variables.py",
+      "name": "Atom.resolve",
+      "line": 26,
+      "end_line": 26,
+      "length": 1,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "variables.py",
+      "name": "Literal",
+      "line": 29,
+      "end_line": 45,
+      "length": 17,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "variables.py",
+      "name": "Literal.__init__",
+      "line": 30,
+      "end_line": 31,
+      "length": 2,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "variables.py",
+      "name": "Literal.__repr__",
+      "line": 33,
+      "end_line": 34,
+      "length": 2,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "variables.py",
+      "name": "Literal.__eq__",
+      "line": 36,
+      "end_line": 39,
+      "length": 4,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "variables.py",
+      "name": "Literal.__hash__",
+      "line": 41,
+      "end_line": 42,
+      "length": 2,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "variables.py",
+      "name": "Literal.resolve",
+      "line": 44,
+      "end_line": 45,
+      "length": 2,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "variables.py",
+      "name": "Variable",
+      "line": 48,
+      "end_line": 67,
+      "length": 20,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "variables.py",
+      "name": "Variable.__init__",
+      "line": 49,
+      "end_line": 51,
+      "length": 3,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "variables.py",
+      "name": "Variable.__repr__",
+      "line": 53,
+      "end_line": 54,
+      "length": 2,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "variables.py",
+      "name": "Variable.__eq__",
+      "line": 56,
+      "end_line": 59,
+      "length": 4,
+      "complexity": 2,
+      "rank": "A"
+    },
+    {
+      "file": "variables.py",
+      "name": "Variable.__hash__",
+      "line": 61,
+      "end_line": 62,
+      "length": 2,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "variables.py",
+      "name": "Variable.resolve",
+      "line": 64,
+      "end_line": 67,
+      "length": 4,
+      "complexity": 3,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "load_ipython_extension",
+      "line": 6,
+      "end_line": 9,
+      "length": 4,
+      "complexity": 1,
+      "rank": "A"
+    },
+    {
+      "file": "__init__.py",
+      "name": "get_cli_string",
+      "line": 12,
+      "end_line": 39,
+      "length": 28,
+      "complexity": 7,
+      "rank": "B"
+    }
+  ],
+  "longest_functions": [
+    {
+      "file": "main.py",
+      "name": "DotEnv",
+      "line": 42,
+      "end_line": 126,
+      "length": 85,
+      "complexity": 5,
+      "rank": "A"
+    },
+    {
+      "file": "main.py",
+      "name": "set_key",
+      "line": 224,
+      "end_line": 285,
+      "length": 62,
+      "complexity": 11,
+      "rank": "C"
+    },
+    {
+      "file": "main.py",
+      "name": "rewrite",
+      "line": 162,
+      "end_line": 221,
+      "length": 60,
+      "complexity": 10,
+      "rank": "B"
+    },
+    {
+      "file": "main.py",
+      "name": "find_dotenv",
+      "line": 376,
+      "end_line": 428,
+      "length": 53,
+      "complexity": 11,
+      "rank": "C"
+    },
+    {
+      "file": "cli.py",
+      "name": "run_command",
+      "line": 214,
+      "end_line": 264,
+      "length": 51,
+      "complexity": 4,
+      "rank": "A"
+    }
+  ],
+  "hotspots": [
+    {
+      "file": "main.py",
+      "max_complexity": 11,
+      "sloc": 353,
+      "mi": 40.89,
+      "mi_rank": "A",
+      "imports": 12,
+      "score": 2
+    },
+    {
+      "file": "cli.py",
+      "max_complexity": 7,
+      "sloc": 182,
+      "mi": 56.58,
+      "mi_rank": "A",
+      "imports": 11,
+      "score": 4
+    },
+    {
+      "file": "parser.py",
+      "max_complexity": 6,
+      "sloc": 149,
+      "mi": 45.77,
+      "mi_rank": "A",
+      "imports": 3,
+      "score": 6
+    },
+    {
+      "file": "variables.py",
+      "max_complexity": 4,
+      "sloc": 64,
+      "mi": 44.29,
+      "mi_rank": "A",
+      "imports": 3,
+      "score": 8
+    },
+    {
+      "file": "__init__.py",
+      "max_complexity": 7,
+      "sloc": 37,
+      "mi": 83.03,
+      "mi_rank": "A",
+      "imports": 3,
+      "score": 8
+    },
+    {
+      "file": "ipython.py",
+      "max_complexity": 3,
+      "sloc": 41,
+      "mi": 100.0,
+      "mi_rank": "A",
+      "imports": 2,
+      "score": 10
+    },
+    {
+      "file": "__main__.py",
+      "max_complexity": 0,
+      "sloc": 3,
+      "mi": 81.86,
+      "mi_rank": "A",
+      "imports": 1,
+      "score": 13
+    },
+    {
+      "file": "version.py",
+      "max_complexity": 0,
+      "sloc": 1,
+      "mi": 100.0,
+      "mi_rank": "A",
+      "imports": 0,
+      "score": 14
+    }
+  ],
+  "smells": [
+    {
+      "file": "main.py",
+      "line": 196,
+      "keyword": "TEMPORARY",
+      "text": "# Report the target path, not the name of the temporary file."
+    }
+  ],
+  "smells_by_file": {
+    "main.py": [
+      {
+        "file": "main.py",
+        "line": 196,
+        "keyword": "TEMPORARY",
+        "text": "# Report the target path, not the name of the temporary file."
+      }
+    ]
+  },
+  "duplicates": [
+    {
+      "hash": "ec5c1d942825b87229ecda76c90206af",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "cli.py",
+          "start_line": 123,
+          "end_line": 127,
+          "sample": "This doesn't follow symlinks, to avoid accidentally modifying a file at a\npotentially untrusted path.\n\"\"\"\nfile = ctx.obj"
+        },
+        {
+          "file": "cli.py",
+          "start_line": 164,
+          "end_line": 167,
+          "sample": "This doesn't follow symlinks, to avoid accidentally modifying a file at a\npotentially untrusted path.\n\"\"\"\nfile = ctx.obj"
+        }
+      ],
+      "sample": "This doesn't follow symlinks, to avoid accidentally modifying a file at a\npotentially untrusted path.\n\"\"\"\nfile = ctx.obj"
+    },
+    {
+      "hash": "00918f5707bd338bfda16e16ba5efbf8",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "cli.py",
+          "start_line": 124,
+          "end_line": 128,
+          "sample": "potentially untrusted path.\n\"\"\"\nfile = ctx.obj[\"FILE\"]\nquote = ctx.obj[\"QUOTE\"]"
+        },
+        {
+          "file": "cli.py",
+          "start_line": 165,
+          "end_line": 168,
+          "sample": "potentially untrusted path.\n\"\"\"\nfile = ctx.obj[\"FILE\"]\nquote = ctx.obj[\"QUOTE\"]"
+        }
+      ],
+      "sample": "potentially untrusted path.\n\"\"\"\nfile = ctx.obj[\"FILE\"]\nquote = ctx.obj[\"QUOTE\"]"
+    },
+    {
+      "hash": "d9cebbd4c4125fd7158851911dd70460",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "cli.py",
+          "start_line": 132,
+          "end_line": 135,
+          "sample": "except OSError as exc:\nprint(f\"Error writing env file: {exc}\", file=sys.stderr)\nsys.exit(2)\nif success:"
+        },
+        {
+          "file": "cli.py",
+          "start_line": 171,
+          "end_line": 174,
+          "sample": "except OSError as exc:\nprint(f\"Error writing env file: {exc}\", file=sys.stderr)\nsys.exit(2)\nif success:"
+        }
+      ],
+      "sample": "except OSError as exc:\nprint(f\"Error writing env file: {exc}\", file=sys.stderr)\nsys.exit(2)\nif success:"
+    },
+    {
+      "hash": "fa4cc8cf0bbc387d85c62a8d15a858bb",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "main.py",
+          "start_line": 238,
+          "end_line": 241,
+          "sample": "This function doesn't follow symlinks by default, to avoid accidentally\nmodifying a file at a potentially untrusted path"
+        },
+        {
+          "file": "main.py",
+          "start_line": 301,
+          "end_line": 304,
+          "sample": "This function doesn't follow symlinks by default, to avoid accidentally\nmodifying a file at a potentially untrusted path"
+        }
+      ],
+      "sample": "This function doesn't follow symlinks by default, to avoid accidentally\nmodifying a file at a potentially untrusted path"
+    },
+    {
+      "hash": "70e8d6d3804dd19e1c734f4ac21bc930",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "main.py",
+          "start_line": 239,
+          "end_line": 242,
+          "sample": "modifying a file at a potentially untrusted path. If you don't need this\nprotection and need symlinks to be followed, us"
+        },
+        {
+          "file": "main.py",
+          "start_line": 302,
+          "end_line": 305,
+          "sample": "modifying a file at a potentially untrusted path. If you don't need this\nprotection and need symlinks to be followed, us"
+        }
+      ],
+      "sample": "modifying a file at a potentially untrusted path. If you don't need this\nprotection and need symlinks to be followed, us"
+    },
+    {
+      "hash": "b4312783af6410223db3e57220d23d93",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "main.py",
+          "start_line": 240,
+          "end_line": 243,
+          "sample": "protection and need symlinks to be followed, use `follow_symlinks`.\n\"\"\"\nif isinstance(dotenv_path, str):\ndotenv_path = o"
+        },
+        {
+          "file": "main.py",
+          "start_line": 303,
+          "end_line": 306,
+          "sample": "protection and need symlinks to be followed, use `follow_symlinks`.\n\"\"\"\nif isinstance(dotenv_path, str):\ndotenv_path = o"
+        }
+      ],
+      "sample": "protection and need symlinks to be followed, use `follow_symlinks`.\n\"\"\"\nif isinstance(dotenv_path, str):\ndotenv_path = o"
+    },
+    {
+      "hash": "32d49273e11025a0adc7db0a0508b007",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "main.py",
+          "start_line": 241,
+          "end_line": 244,
+          "sample": "\"\"\"\nif isinstance(dotenv_path, str):\ndotenv_path = os.path.expanduser(dotenv_path)\nelse:"
+        },
+        {
+          "file": "main.py",
+          "start_line": 304,
+          "end_line": 307,
+          "sample": "\"\"\"\nif isinstance(dotenv_path, str):\ndotenv_path = os.path.expanduser(dotenv_path)\nelse:"
+        }
+      ],
+      "sample": "\"\"\"\nif isinstance(dotenv_path, str):\ndotenv_path = os.path.expanduser(dotenv_path)\nelse:"
+    },
+    {
+      "hash": "ed06833f89c5df32a90c8af6302ee4fc",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "main.py",
+          "start_line": 242,
+          "end_line": 245,
+          "sample": "if isinstance(dotenv_path, str):\ndotenv_path = os.path.expanduser(dotenv_path)\nelse:\ndotenv_path = pathlib.Path(dotenv_p"
+        },
+        {
+          "file": "main.py",
+          "start_line": 305,
+          "end_line": 308,
+          "sample": "if isinstance(dotenv_path, str):\ndotenv_path = os.path.expanduser(dotenv_path)\nelse:\ndotenv_path = pathlib.Path(dotenv_p"
+        }
+      ],
+      "sample": "if isinstance(dotenv_path, str):\ndotenv_path = os.path.expanduser(dotenv_path)\nelse:\ndotenv_path = pathlib.Path(dotenv_p"
+    },
+    {
+      "hash": "0808886dddd3bc2e68fe961f321059c4",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "main.py",
+          "start_line": 267,
+          "end_line": 270,
+          "sample": "with rewrite(dotenv_path, encoding=encoding, follow_symlinks=follow_symlinks) as (\nsource,\ndest,\n):"
+        },
+        {
+          "file": "main.py",
+          "start_line": 314,
+          "end_line": 317,
+          "sample": "with rewrite(dotenv_path, encoding=encoding, follow_symlinks=follow_symlinks) as (\nsource,\ndest,\n):"
+        }
+      ],
+      "sample": "with rewrite(dotenv_path, encoding=encoding, follow_symlinks=follow_symlinks) as (\nsource,\ndest,\n):"
+    },
+    {
+      "hash": "b3907dda8c9e1aba1196d6a92fab428a",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "main.py",
+          "start_line": 472,
+          "end_line": 475,
+          "sample": "dotenv_path=dotenv_path,\nstream=stream,\nverbose=verbose,\ninterpolate=interpolate,"
+        },
+        {
+          "file": "main.py",
+          "start_line": 511,
+          "end_line": 514,
+          "sample": "dotenv_path=dotenv_path,\nstream=stream,\nverbose=verbose,\ninterpolate=interpolate,"
+        }
+      ],
+      "sample": "dotenv_path=dotenv_path,\nstream=stream,\nverbose=verbose,\ninterpolate=interpolate,"
+    },
+    {
+      "hash": "fbade9cdce75db5ffd68683bf8552aa4",
+      "instances": 2,
+      "locations": [
+        {
+          "file": "parser.py",
+          "start_line": 149,
+          "end_line": 152,
+          "sample": "return Binding(\nkey=None,\nvalue=None,\noriginal=reader.get_marked(),"
+        },
+        {
+          "file": "parser.py",
+          "start_line": 180,
+          "end_line": 183,
+          "sample": "return Binding(\nkey=None,\nvalue=None,\noriginal=reader.get_marked(),"
+        }
+      ],
+      "sample": "return Binding(\nkey=None,\nvalue=None,\noriginal=reader.get_marked(),"
+    }
+  ],
+  "file_metrics": {
+    "cli.py": {
+      "sloc": 182,
+      "mi": 56.58,
+      "mi_rank": "A",
+      "imports_count": 11,
+      "imported_modules": [
+        "click",
+        "contextlib",
+        "json",
+        "main",
+        "os",
+        "shlex",
+        "shutil",
+        "subprocess",
+        "sys",
+        "typing",
+        "version"
+      ]
+    },
+    "ipython.py": {
+      "sloc": 41,
+      "mi": 100.0,
+      "mi_rank": "A",
+      "imports_count": 2,
+      "imported_modules": [
+        "IPython",
+        "main"
+      ]
+    },
+    "main.py": {
+      "sloc": 353,
+      "mi": 40.89,
+      "mi_rank": "A",
+      "imports_count": 12,
+      "imported_modules": [
+        "collections",
+        "contextlib",
+        "io",
+        "logging",
+        "os",
+        "parser",
+        "pathlib",
+        "stat",
+        "sys",
+        "tempfile",
+        "typing",
+        "variables"
+      ]
+    },
+    "parser.py": {
+      "sloc": 149,
+      "mi": 45.77,
+      "mi_rank": "A",
+      "imports_count": 3,
+      "imported_modules": [
+        "codecs",
+        "re",
+        "typing"
+      ]
+    },
+    "variables.py": {
+      "sloc": 64,
+      "mi": 44.29,
+      "mi_rank": "A",
+      "imports_count": 3,
+      "imported_modules": [
+        "abc",
+        "re",
+        "typing"
+      ]
+    },
+    "version.py": {
+      "sloc": 1,
+      "mi": 100.0,
+      "mi_rank": "A",
+      "imports_count": 0,
+      "imported_modules": []
+    },
+    "__init__.py": {
+      "sloc": 37,
+      "mi": 83.03,
+      "mi_rank": "A",
+      "imports_count": 3,
+      "imported_modules": [
+        "ipython",
+        "main",
+        "typing"
+      ]
+    },
+    "__main__.py": {
+      "sloc": 3,
+      "mi": 81.86,
+      "mi_rank": "A",
+      "imports_count": 1,
+      "imported_modules": [
+        "cli"
+      ]
+    }
+  }
+}
